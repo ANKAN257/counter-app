@@ -44,8 +44,7 @@ function setColor()
 
 }
 
-// add.addEventListener("click",
-// addition(){console.log(1);})
+
 
 // add.addEventListener("click",()=>{
 // count.innerHTML++;
