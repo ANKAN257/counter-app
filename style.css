@@ -1,0 +1,92 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); 
+
+ *
+ {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+ }
+
+ html
+ {
+    font-size: 10px;
+ }
+
+ body
+ {
+    font-family: 'Open Sans',sans-serif ;
+    background-color: bisque;
+ }
+
+ p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+ }
+ img{
+    width: 100%;
+ }
+
+ .container
+ {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ .counter-div
+ {
+   width: 50rem;
+   /* height: 30rem; */
+   border: 1px solid red;
+   padding :1rem;
+   color: white;
+   background-color: rgb(4, 135, 179);
+   text-align: center;
+   border-radius: 5px;
+font-weight: 700px;
+/* cursor: pointer; */
+
+ }
+
+ .counter-div>*
+ {
+   margin-bottom: 2rem;
+ }
+ .count
+{
+   font-size: 4rem;
+} 
+.buttons button
+{
+   padding: 1rem;
+   margin: 0 1rem;
+   border: none;
+   outline: none;
+   border-radius: 3px;
+
+}
+button.substract
+{
+   background-color: red;
+   color: white;
+   cursor: pointer;
+}
+button.reset
+{
+   background-color: white;
+   color: black;
+   cursor: pointer;
+}
+button.add
+{
+   cursor: pointer;
+   background-color: green;
+   color: white;
+}
+i
+{
+   color: black;
+}
